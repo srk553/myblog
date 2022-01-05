@@ -38,11 +38,14 @@ params:
       - name: Github
         url: "https://github.com/"
 
+
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/sharath-kumar-268156213/"
     - name: "youtube"
       url: "<link2>"
+    - name: "other"
+      url: "https://mysrk.netlify.app/"
 
   disableThemeToggle: true
   defaultTheme: dark 
