@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://srktektalk.netlify.app/
 languageCode: en-us
 title: TekTalk
 
@@ -34,7 +34,7 @@ params:
     imageHeight: 240 # custom size
     buttons:
       - name: Archive
-        url: "/archive"
+        url: "/archives"
       - name: Github
         url: "https://github.com/"
 
