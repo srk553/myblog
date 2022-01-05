@@ -1,3 +1,64 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: TekTalk
+
+theme : "PaperMod"
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+        main:
+            - name: Archive
+              url: archives
+              weight: 5
+            - name: Search
+              url: search/
+              weight: 10
+            - name: Tags
+              url: tags/
+              weight: 10
+            - name: Categories
+              url: categories/
+              weight: 10
+
+
+params:
+  profileMode:
+    enabled: true
+    title: "Sharath's TekTalk" # optional default will be site title
+    subtitle: "My blog on the latest topics I am working/thinking on"
+    imageUrl: "img/me.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sharath-kumar-268156213/"
+    - name: "youtube"
+      url: "<link2>"
+
+  disableThemeToggle: true
+  defaultTheme: dark 
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  # comments: false
+  images: ["papermod-cover.png"] 
+
+
+
+
+
