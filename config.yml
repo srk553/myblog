@@ -28,7 +28,7 @@ params:
     enabled: true
     title: "Sharath's TekTalk" # optional default will be site title
     subtitle: "My blog on the latest topics I am working/thinking on"
-    imageUrl: "img/me.jpg" # optional
+    imageUrl: "img/me.png" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
@@ -60,6 +60,7 @@ params:
   ShowToc: true
   # comments: false
   images: ["papermod-cover.png"] 
+
 
 
 
